@@ -1,12 +1,14 @@
 body {
   font-family: monospace;
-  background: #eee;
+  background-image: url("/images/bg2.jpg");
+  
 }
 
 .border-box {
   background: white;
   border-radius: 7px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
 .flex {
@@ -15,32 +17,66 @@ body {
 
 .line-height {
   line-height: 2.5;
+
 }
 
 .flex-space-between {
   justify-content: space-between;
 }
 
-#toolContainer {
-  width: 258px;
+
+#dropbtn {
+  position: absolute;
+  background-color: #020202;
+  border-radius: 20px;
+  height: 25px;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  margin: 15px;
+  left:30px;
+  top:200px;
 }
+
+#savebutton {
+
+  position: absolute;
+  background-color: #020202;
+  border-radius: 20px;
+  height: 25px;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  margin: 15px;
+  left:300px;
+  top:200px;
+
+}
+
+
+#toolContainer {
+  width: 256px;
+  margin-left: 30px;
+
+}
+
+
+
 
 .pencil {
   cursor: url("images/pencil.png") 0 30, auto;
+
 }
 
 .eraser {
   cursor: url("images/eraser.png") 15 15, auto;
 }
 
-.dropbtn {
-  background-color: #020202;
-    color: white;
-    padding: 200px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
+
 
 
 
@@ -49,39 +85,64 @@ button {
   height: 40px;
   background: #050505;
   border-radius: 20px;
-  border: none;
+  border: 45px;
   color: white;
   font-family: monospace;
   font-size: 13px;
+  margin-left: 10px;
+  
+  
 }
+
 
 button:hover { 
   background-color: #050505;
 }
 
 #textContainer {
-  margin: 20px;
+  margin-left: 40px;
+  margin-bottom: 100px;
+
+
 }
 
 #transferContainer {
-  margin-top: 80px;
+  margin-top: 100px;
+  margin-left: 10px;
 }
 
+ 
+
+
+
+
+#textElementp {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+
+
+/* transfer */
 #btnContainer {
-  margin: 0 20px;
+  margin: 0 30px;
+ margin-bottom: 230px;
 }
 
 #toolContainer {
   width: 256px;
-  margin: 0 20px;
+  /* margin: 0 30px; */
+  margin-top: 170px;
+  margin-bottom: 0px;
+  margin-left: 30px;
 }
 
-.pokeball {
+/* .pokeball {
   animation: pokeball-spin infinite 5s linear;
   height: 60px;
   margin-left: 20px;
   margin-bottom: 20px;
-}
+} */
 
 @keyframes pokeball-spin {
   0%   {
