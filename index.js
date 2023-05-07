@@ -68,6 +68,7 @@ function transfer() {
   });
 }
 
+
 // A function to be called when the models have loaded
 function modelLoaded() {
   if (!statusMsg) statusMsg = select('#status');
@@ -102,3 +103,4 @@ function useEraser() {
   inputCanvas.removeClass('pencil');
   inputCanvas.addClass('eraser');
 }
+

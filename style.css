@@ -33,6 +33,17 @@ body {
   cursor: url("images/eraser.png") 15 15, auto;
 }
 
+.dropbtn {
+  background-color: #020202;
+    color: white;
+    padding: 200px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
 button {
   cursor: pointer;
   height: 40px;
@@ -69,7 +80,7 @@ button:hover {
   animation: pokeball-spin infinite 5s linear;
   height: 60px;
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @keyframes pokeball-spin {

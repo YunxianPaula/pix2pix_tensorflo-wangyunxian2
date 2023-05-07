@@ -28,6 +28,24 @@
           <button onClick="getRandomOutput()">Random</button>
         </div>
       </div>
+
+      <form action="dropbtn">
+        <label for="lang">Type of dream</label>
+        <select name="languages" id="lang">
+          <option value="javascript">JavaScript</option>
+          <option value="php">PHP</option>
+          <option value="java">Java</option>
+          <option value="golang">Golang</option>
+          <option value="python">Python</option>
+          <option value="c#">C#</option>
+          <option value="C++">C++</option>
+          <option value="erlang">Erlang</option>
+        </select>
+        <!-- <input type="submit" value="Submit" /> -->
+      </form>
+
+
+
       <div id="transferContainer">
         <img src="images/pokeball.png" class="pokeball"/><br>
         <button id="transferBtn" class="btn" onClick="transfer()">Transfer &xrarr;</button>
